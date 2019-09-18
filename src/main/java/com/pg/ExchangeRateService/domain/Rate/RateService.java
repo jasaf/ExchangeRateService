@@ -29,7 +29,6 @@ public class RateService {
      * @return RateResponseWrapper object with a processed list of data
      */
     public RateResponseWrapper getExchangeRateList(LocalDate fromDate, LocalDate toDate) {
-        fromDate.minusDays(1);
         List<Rate> rateList = nbpRestRepository.getRatesFromToDate(fromDate, toDate).getRates();
         final Rate[] storedRateWrapper = {null};
 
