@@ -1,6 +1,6 @@
 # ExchangeRateService
 
-The main purpose of this service is to provide US Dollar exchange rate data based on a provided date range. The project is based on SpringBoot and it uses an external API to gather data for further processing. 
+The main purpose of this service is to provide US Dollar/PLN exchange rate data based on a provided date range. The project is based on SpringBoot and it uses an external API to gather data for further processing. 
 
 ### Instructions
 Install the project in local target directory.
